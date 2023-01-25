@@ -9,11 +9,16 @@ const Navbar = () => {
         <div class="container-fluid">
           <Link className=" me-2 navbar-brand" to="/">
             <img src={navimage} alt="logo" className="d-inline-block " />
-            HomeTech
+            <span className="text-primary fs-6 fw-semibold">HomeTech</span>
           </Link>
           <div className="d-flex">
             <Link className="me-2" to="/About">
-              About Us
+              <button
+                className="btn btn-secondary
+              "
+              >
+                About Us
+              </button>
             </Link>
           </div>
         </div>
